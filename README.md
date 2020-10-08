@@ -20,6 +20,22 @@ Marche à suivre pour utiliser l'API :
 
 5. Depuis le dossier backend, téléchargez Node.js puis tapez la commande suivante : `npm start`.
 
+6. Installez les packages nécessaires au bon fonctionnement de l'API avec la commande `npm install --save <nom du package>` :
+	* `express`
+	* `mongoose`
+	* `body-parser`
+	* `path`
+	* `helmet`
+	* `dotenv`
+	* `mongoose-unique-validator`
+	* `jsonwebtoken`
+	* `multer`
+	* `bcrypt`
+	* `email-validator`
+	* `password-validator`
+	* `mongo-sanitize`
+	* `fs`
+	
 6. Lancez le serveur avec la commande : `node server`.
 
 Le serveur doit fonctionner sur [`http://localhost:3000/`](http://localhost:3000/).
