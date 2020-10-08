@@ -11,11 +11,8 @@ const User = require("../models/User");
 //Création du schéma de mot de passe
 const passwordSchema = new passwordValidator();
 passwordSchema
-    .is().min(6) // 6 caractères min
+    .is().min(3) // 6 caractères min
     .is().max(20) // 12 caractères max
-    .has().uppercase() // Au moins 1 majuscule
-    .has().lowercase() // Au moins 1 minuscule
-    .has().digits(1) // Au moins 1 chiffre
     .has().not().spaces() // Pas d'espace
 
 //Fonction d'inscription

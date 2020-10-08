@@ -54,7 +54,7 @@ exports.deleteSauce = (req, res, next) => {
     Sauce.findOne({_id: req.params.id})
         .then(sauce => {
             //Reconstruire le nom du fichier image à partir de son URL et la supprimer dans le filesystem
-            const filename = sauce.imageUrl.split("/image/")[1];
+            const filename = sauce.imageUrl.split("/images/")[1];
             fs.unlink(`images/${filename}`, () => {
                 //Suppression de la sauce dont l'id correspond à celui dans l'URI de la requête
                 Sauce.deleteOne({_id: req.params.id})
