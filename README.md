@@ -7,30 +7,16 @@ Marche à suivre pour utiliser l'API :
 ## Mongo DB
 
 2. Créez un fichier .env à la racine du dossier backend, et y indiquer les accès au cluster MongoDB
-	* `DB_USER=sopekocko`
-	* `DB_PASSWORD=devweb2020`
-	* `DB_NAME=sopekocko`
+	* `DB_USER=<votre username>`
+	* `DB_PASSWORD=<votre mot de passe>`
+	* `DB_NAME=<le nom de votre cluster>`
 	
 3. Ajouter une longue chaîne de caractères aléatoires pour configurer les tokens utilisateurs
 	* `SECRET_TOKEN=< votre chaîne de caractères>`
 
 ## Backend
 
-4. Installez les packages nécessaires au bon fonctionnement de l'API avec la commande `npm install --save <nom du package>` :
-	* `express`
-	* `mongoose`
-	* `body-parser`
-	* `path`
-	* `helmet`
-	* `dotenv`
-	* `mongoose-unique-validator`
-	* `jsonwebtoken`
-	* `multer`
-	* `bcrypt`
-	* `email-validator`
-	* `password-validator`
-	* `mongo-sanitize`
-	* `fs`
+4. Installez les packages nécessaires au bon fonctionnement de l'API avec la commande `node install`.
 	
 5. Lancez le serveur avec la commande : `node server`.
 
