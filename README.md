@@ -16,7 +16,7 @@ Marche à suivre pour utiliser l'API :
 
 ## Backend
 
-4. Installez les packages nécessaires au bon fonctionnement de l'API avec la commande `node install`.
+4. Installez les packages nécessaires au bon fonctionnement de l'API avec la commande `npm install`.
 	
 5. Lancez le serveur avec la commande : `node server`.
 
